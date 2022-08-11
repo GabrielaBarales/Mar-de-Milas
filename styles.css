@@ -1,0 +1,242 @@
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    .nav-container {
+        max-width: 100%;
+        margin: 10px auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav {
+        width: 100%;
+        height: 80px;
+        max-height: 100%;
+        background: #e3e3e3;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 60px;
+        margin: 0 20px;
+    }
+
+    .toggle {
+        border: none;
+        background: none;
+        font-size: 40px;
+        color: #515151;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 110px;
+        position: fixed;
+        background-color: #b5b5b5;
+        width: 100%;
+        height: 200px;
+
+        left: 100%;
+        transition: 0.3s;
+    }
+
+    .menu_visible {
+        left: 0;
+    }
+
+    .link {
+        list-style: none;
+        padding: 5px 0;
+        margin: 5px 0;
+    }
+
+    .nav-menu-link {
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav {
+        width: 100%;
+        height: 80px;
+        max-height: 100%;
+        background: #e3e3e3;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 60px;
+        margin: 0 20px;
+    }
+
+    .toggle {
+        border: none;
+        background: none;
+        font-size: 40px;
+        color: #515151;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        top: 80px;
+        position: fixed;
+        background-color: #b5b5b5;
+        width: 100%;
+        height: 200px;
+
+        left: 100%;
+        transition: 0.3s;
+    }
+
+    .menu_visible {
+        left: 0;
+    }
+
+    .link {
+        list-style: none;
+        padding: 5px 0;
+        margin: 5px 0;
+    }
+
+    .nav-menu-link {
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+}
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+.conteiner-body{
+    display: flex;
+    justify-content: space-between;
+}
+.columna1{
+  max-width: 400%;
+}
+.columna1 h1{
+    font-size: 15pt;
+}
+.columna1 p{
+    font-size: 9pt;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+.columna2{
+    max-width: 400px;
+}
+.columna2 h1{
+    font-size: 15pt;    
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row .label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+.columna3{
+    max-width: 400px;
+}
+.columna3 h1{
+    font-size: 15pt;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+.conteiner-footer{
+    width: 100%;
+    background: #101010;
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.copyright{
+    color: #C7C7C7;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.politicas{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+@media screen and (max-width:1100px){
+    .conteiner-body{
+        flex-wrap: wrap;
+    }
+
+    .columna1{
+        max-width: 100%;
+    }
+
+ .columna2,.columna3{
+    margin-top: 40px;
+ }
+
+}
