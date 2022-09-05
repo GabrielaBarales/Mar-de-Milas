@@ -175,6 +175,8 @@
                 line-height: 23px;
                 text-align: center;
            } 
+
+        
     
 
 }
@@ -357,4 +359,27 @@
              line-height: 23px;
              text-align: center;
         } 
+
+        /* 
+
+        SCROLLBAR
+
+        ::-webkit-scrollbar {
+            background: #000;
+            width: 5px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #101010;
+            border-radius: 5px;
+          
+            
+        }
+        
+        ::-webkit-scrollbar-thumb{
+            background: #00ffff;
+            border-radius: 5px;
+        }
+
+        */
 }
