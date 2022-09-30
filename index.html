@@ -11,82 +11,406 @@
     </head>
     <body>
         <header>
-                <nav class="nav">
-                    <img class="logo" src="images/Logo empresa/logo milas.svg" alt="logo">
-                    <button class="toggle">
-                        <i class="fa-solid fa-user"></i>
-                    </button>
-                    <ul class="menu">
-                            <li class="link">
-                                <a href="#direcciones" class="nav-menu-link">Direcciones</a>
-                            </li>
-                            <li class="link">
-                                <a href="#pedidos" class="nav-menu-link">Pedidos</a>
-                            </li>
-                            <li class="link">
-                                <a href="#perfil" class="nav-menu-link">Perfil</a>
-                            </li>
-                            <li class="link">
-                                <a href="#ayuda-en-linea" class="nav-menu-link">Ayuda en línea</a>
-                            </li>
-                    </ul>
-                </nav>
-
-
-            <div class="content">
-                
-            </div>
-              
-        </header>
-        <main>
+            <nav class="nav">
+                <img class="logo" src="images/Logo empresa/logo milas.svg" alt="logo">
+                <button class="toggle">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+                <ul class="menu">
+                        <li class="link">
+                            <a href="#direcciones" class="nav-menu-link">Direcciones</a>
+                        </li>
+                        <li class="link">
+                            <a href="#pedidos" class="nav-menu-link">Pedidos</a>
+                        </li>
+                        <li class="link">
+                            <a href="#perfil" class="nav-menu-link">Perfil</a>
+                        </li>
+                        <li class="link">
+                            <a href="#ayuda-en-linea" class="nav-menu-link">Ayuda en línea</a>
+                        </li>
+                </ul>
+            </nav>
+    </header>
+    <main class="main">
         <div class="slider">
-            <div class="box"><a href="#BEBIDAS"><img src="Images/Iconos/bebidas.png" alt="BEBIDAS"><h3>BEBIDAS</h3></a></div>
-            <div class="box"><a href="#SÁNDWICHES DE CARNE"><img src="Images/Iconos/sandwich de carne.png" alt="SÁNDWICHES DE CARNE"><h3>SÁNDWICHES DE CARNE</h3></a></div>
-            <div class="box"><a href="#SÁNDWICHES DE POLLO"><img src="Images/Iconos/sandwich de pollo.png" alt="SÁNDWICHES DE POLLO"><h3>SÁNDWICHES DE POLLO</h3></a></div>
-            <div class="box"><a href="#SÁNDWICHES INDIVIDUALES"><img src="Images/Iconos/individual.svg" alt="SÁNDWICHES INDIVIDUALES"><h3>SÁNDWICHES INDIVIDUALES</h3></a></div>
-            <div class="box"><a href="#SÁNDWICHES PARA COMPARTIR"><img src="Images/Iconos/para compartir.png" alt="SÁNDWICHES PARA COMPARTIR"><h3>SÁNDWICHES PARA COMPARTIR</h3></a></div>
+            <div class="box"><img src="Images/Iconos/bebidas.png" alt="BEBIDAS"><a href="#drinks">BEBIDAS</a></div>
+            <div class="box"><img src="Images/Iconos/sandwich de carne.png" alt="SÁNDWICHES DE CARNE"><a href="#meat-sandwiches">SÁNDWICHES DE CARNE</a></div>
+            <div class="box"><img src="Images/Iconos/sandwich de pollo.png" alt="SÁNDWICHES DE POLLO"><a href="#chicken-sandwiches">SÁNDWICHES DE POLLO</a></div>
+            <div class="box"><img src="Images/Iconos/individual.svg" alt="SÁNDWICHES INDIVIDUALES"><a href="#single-sandwiches">SÁNDWICHES INDIVIDUALES</a></div>
+            <div class="box"><img src="Images/Iconos/para compartir.png" alt="SÁNDWICHES PARA COMPARTIR"><a href="#sandwiches-to-share">PARA COMPARTIR</a></div>
         </div>
-        <h2 id="BEBIDAS">BEBIDAS</h2>
-        <h2 id="SÁNDWICHES DE CARNE">SÁNDWICHES DE CARNE</h2>
-        <h2 id="SÁNDWICHES DE POLLO">SÁNDWICHES DE POLLO</h2>
-        <h2 id="SÁNDWICHES INDIVIDUALES">SÁNDWICHES INDIVIDUALES</h2>
-        <h2 id="SÁNDWICHES PARA COMPARTIR">SÁNDWICHES PARA COMPARTIR</h2>
-    </main>
-        <footer>
-            <div class="container-footer-all">
-                <div class="box__footer">
-                    <h4>Mas información de la compañía</h4>
-                    <p>Esta compañía se dedica a la venta de un productos comestibles y prestar sus
-                        Servicio en la localidad de Gardey. Este, esta dirigido a una población general, pero a su vez, esta centrado en los transportistas.</p>
+        <div class="list">
+            <div id="drinks">
+                <span class="product-title">Bebidas</span>
+                <div class="drinks">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
                 </div>
-    
-                <div class="box__footer">
-                    <h4>Redes Sociales</h4>
-                    <a href="#"><img src="Images/Logo redes/facebook_logo.png" alt="logo">Síguenos en Facebook</a>
-                    <a href="#"><img src="Images/Logo redes/instagram_logo.png" alt="logo">Síguenos en Instagram</a>
-                    <a href="#"><img src="Images/Logo redes/pinterest_logo.png" alt="logo">Síguenos en Pinterest</a>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="drinks">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="drinks">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="drinks">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="drinks">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="drinks">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
             </div>
-        
-    
-         <div class="box__footer">
-            <h4>Información de Contacto</h4>
-         <a href="#"><img src="Images/Iconos contacto/casa.svg" alt="logo">Ciudad de Gardey</a>
-         <a href="#"><img src="Images/Iconos contacto/celular.svg" alt="logo">+549 2494031958</a>
-         <a href="#"><img src="Images/Iconos contacto/correo.svg" alt="logo">MardeMilas@gmail.com</a>
-         </div>
+            <div id="meat-sandwiches">
+                <span class="product-title">Sandwiches de carne</span>
+                <div class="meat-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="meat-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="meat-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="meat-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="meat-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <div id="chicken-sandwiches">
+                <span class="product-title">Sandwiches de pollo</span>
+                <div class="chicken-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="chicken-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="chicken-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="chicken-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="chicken-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <div id="single-sandwiches">
+                <span class="product-title">Sandwiches individuales</span>
+                <div class="single-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="single-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="single-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="single-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="single-sandwiches">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <div id="sandwiches-to-share">
+                <span class="product-title">Sandwiches para compartir</span>
+                <div class="sandwiches-to-share">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="sandwiches-to-share">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="sandwiches-to-share">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="sandwiches-to-share">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+                <div class="sandwiches-to-share">
+                    <div class="product-name">Lorem ipsum</div>
+                <div>
+                    <span class="product-description">Lorem ipsum sit amet</span>
+                </div>
+                <div class="add-product">
+                    <span class="prize">$300</span>
+                    <button class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
         </div>
-            <div class="conteiner-footer">
-                <div class="copyright">
-                   <b>© 2022 Mar de Milas</b> 
-                </div>
-                <div class="politicas">
-                    <a href="">informacion Compañia</a>
-                     | <a href=""> Privación y Política</a>
-                     | <a href="">Terminos y Condiciones</a> 
-                </div>
-             </div>
-            
-        </footer>
+    </main>
+   <footer class="footer">
+        <div class="container-footer-all">
+            <div class="box__footer">
+                <h4>Mas información de la compañía</h4>
+                <p>Esta compañía se dedica a la venta de un productos comestibles y prestar sus
+                    Servicio en la localidad de Gardey. Este, esta dirigido a una población general, pero a su vez, esta centrado en los transportistas.</p>
+            </div>
+    <div class="box__footer">
+        <h4>Redes Sociales</h4>
+        <a href="#"><img src="Images/Logo redes/facebook_logo.png" alt="logo">Síguenos en Facebook</a>
+        <a href="#"><img src="Images/Logo redes/instagram_logo.png" alt="logo">Síguenos en Instagram</a>
+        <a href="#"><img src="Images/Logo redes/pinterest_logo.png" alt="logo">Síguenos en Pinterest</a>
+    </div>
+    <div class="box__footer">
+        <h4>Información de Contacto</h4>
+     <a href="#"><img src="Images/Iconos contacto/casa.svg" alt="logo">Ciudad de Gardey</a>
+     <a href="#"><img src="Images/Iconos contacto/celular.svg" alt="logo">+549 2494031958</a>
+     <a href="#"><img src="Images/Iconos contacto/correo.svg" alt="logo">MardeMilas@gmail.com</a>
+     </div>
+    </div>
+        <div class="conteiner-footer">
+            <div class="copyright">
+               <b>© 2022 Mar de Milas</b> 
+            </div>
+            <div class="politicas">
+                <a href="">informacion Compañia</a>
+                 | <a href=""> Privación y Política</a>
+                 | <a href="">Terminos y Condiciones</a> 
+            </div>
+         </div>
+        
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector(".toggle");
+    const container = document.querySelector(".menu");
+    
+    navToggle.addEventListener("click", () => {
+        container.classList.toggle("menu_visible");
+    });
+    </script>
     </body>
 
 </html>
